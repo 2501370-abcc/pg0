@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    background-image: url("images/roku.webp");
+    color: #000000;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+}
+.home {
+    margin-right: auto;
+}
+.item1, .item2, .item3, .item4, .item5 {
+    padding-right: 3%;
+}
+.redp {
+    color: #ff0000;
+    font-size: 25px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.profile {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.nyoi, .ore {
+    border-radius: 10%;
+    width: 100%;
+}
+.games, .rame {
+    display: flex;
+}
+.ow, .valo, .apex {
+    width: 33.3%;
+}
+.maruko, .jiro {
+    border-radius: 10%;
+    width: 47.5%;
+}
+.jiro {
+    padding-left: 5%;
+}
+h3, p {
+    text-align: center;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
