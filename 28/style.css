@@ -31,9 +31,14 @@ a {
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-.nyoi, .ore {
+.nyoi {
     border-radius: 10%;
     width: 100%;
+}
+.ore {
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
 }
 .games, .rame {
     display: flex;
